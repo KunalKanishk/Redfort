@@ -1,0 +1,53 @@
+.a  {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #201e1b;
+}
+.a li { color: #F7E1AE;
+    font-family:Inter ;
+    font-size: 20px;
+    float:left;
+}
+.a li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;}
+
+    li a:hover:not(.active) {
+        background-color: #00000071 ;
+      }
+.active {
+        background-color: #aa2b04;
+      }
+
+      body{
+        background-image: url(assets/My\ project-5.png);
+          font-family: Inter;
+          margin: 0;}
+
+          img{
+            max-width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+          }
+    form {
+        text-align: center;
+        font-size: 20px;
+        background-color: rgba(240, 255, 255, 0.728);
+        margin-left: 300px;
+        margin-right: 300px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+        
+        h1 {
+            font-size: 50px;
+            font-family: MuseoModerno;
+            text-align: center;
+        }
